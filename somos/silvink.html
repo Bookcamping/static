@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>silvink :: bookcamping</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 12:46:43 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='https://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="UsersController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Bookcamping" class="logo" src="/assets/logos/bookcamping.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/listas">Listas compartidas</a></div>
+    <div class="head "></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunos libros para entender cómo hemos llegado hasta aquí (poque no salimos de la nada)</span>
+        <span class="slogan big">¿Y tú, qué libro te llevarías a tu plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="header">
+    <h4>Sigue las listas:</h4>
+  </div>
+  <table class="shelves small">
+    <tr class="spacer"></tr>
+<tr class="shelf" id="shelf_16">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/videoclub/genero" class="name">GÉNERO</a>.&nbsp;
+        En <a href="/bibliotecas/videoclub" class="library">videocamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 8 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #9a7fba">
+    <span class="references"><i class='icon-book'></i>&nbsp;12</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4092">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/no-querias-sopa-pues-toma-dos-tazas-neutralidad-y-" class="name">¿NO QUERÍAS SOPA? PUES TOMA DOS TAZAS: NEUTRALIDAD Y OTRAS COSAS AMENAZADAS</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #f68b1f">
+    <span class="references"><i class='icon-book'></i>&nbsp;8</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;1</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_21">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/miedo-y-asco-no-ficcion-cronica-y-periodismo-narra" class="name">MIEDO Y ASCO: NO FICCIÓN, CRÓNICA Y PERIODISMO NARRATIVO</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #67c095">
+    <span class="references"><i class='icon-book'></i>&nbsp;66</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_20">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/la-ficcion-supera-a-la-realidad-ficciones" class="name">LA FICCIÓN SUPERA A LA REALIDAD: FICCIONES</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 3 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;83</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/distopias-clasicas-y-escalofriantemente-disfrutona" class="name">DISTOPÍAS CLÁSICAS Y ESCALOFRIANTEMENTE DISFRUTONAS</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 7 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #e9c54b">
+    <span class="references"><i class='icon-book'></i>&nbsp;45</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_5">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/antecedentes-la-s-madre-s-del-cordero" class="name">ANTECEDENTES. LA(S) MADRE(S) DEL CORDERO</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #64a353">
+    <span class="references"><i class='icon-book'></i>&nbsp;119</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_1">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/especificos-sol-pequena-hemeroteca-archivo-dinamic" class="name">ESPECÍFICOS SOL. PEQUEÑA HEMEROTECA, ARCHIVO, DINÁMICAS ASAMBLEARIAS Y +</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;128</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;1</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_6">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/reveladores-ventanas-posibilidades-apetecibles-nam" class="name">REVELADORES. VENTANAS. POSIBILIDADES. APETECIBLES, ÑAM ÑAM</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #c36d3b">
+    <span class="references"><i class='icon-book'></i>&nbsp;142</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;3</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_3">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/poesia-grafica-visual-risas-petrificadas" class="name">POESÍA / GRÁFICA / VISUAL / RISAS PETRIFICADAS</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 2 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #afa9ad">
+    <span class="references"><i class='icon-book'></i>&nbsp;214</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_2">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/manuales-de-accion-micropolitica-analisis-local-cu" class="name">MANUALES DE ACCIÓN. MICROPOLÍTICA. ANÁLISIS LOCAL. CULTURA LIBRE </a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 2 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #86475e">
+    <span class="references"><i class='icon-book'></i>&nbsp;221</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_25">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/literaturas-del-yo-auto-biografias-memorias-diario" class="name">LITERATURAS DEL YO. AUTO (BIOGRAFÍAS), MEMORIAS, DIARIOS</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #357391">
+    <span class="references"><i class='icon-book'></i>&nbsp;32</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;4</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4939">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estapasando/nuestro-proceso-constituyente-25s" class="name">Nuestro proceso constituyente: #25S</a>.&nbsp;
+        En <a href="/bibliotecas/estapasando" class="library">Está pasando</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;47</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4926">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/listas/materiales-copylove" class="name">materiales #copylove</a>.&nbsp;
+        En <a href="/bibliotecas/listas" class="library">Listas compartidas</a>.
+
+      Iniciada por <a href="/somos/sofia-coca">Sofía Coca</a>.
+      <span class="updated_at">
+        Actualizada hace casi 7 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;4</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4927">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/pantallas-television-mentiras-y-cintas-de-video" class="name">Pantallas: televisión, mentiras y cintas de vídeo</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/ingrid-guardiola">Ingrid Guardiola</a>.
+      <span class="updated_at">
+        Actualizada hace más de 1 año
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;13</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;7</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4946">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/educacion-expandida" class="name">Educación Expandida</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/pedro-jimenez">Pedro Jiménez</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #4eaea8">
+    <span class="references"><i class='icon-book'></i>&nbsp;4</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;12</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4949">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/archivos/archivos-laboratorios-del-devenir" class="name">Archivos: laboratorios del devenir</a>.&nbsp;
+        En <a href="/bibliotecas/archivos" class="library">Archivos, bibliotecas</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #f68b1f">
+    <span class="references"><i class='icon-book'></i>&nbsp;21</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;7</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4952">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/listas/sexo-hipster" class="name">Sexo Hipster</a>.&nbsp;
+        En <a href="/bibliotecas/listas" class="library">Listas compartidas</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #ee8587">
+    <span class="references"><i class='icon-book'></i>&nbsp;69</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;14</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4968">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/editoras/mujeres-preokupando" class="name">Mujeres Preokupando</a>.&nbsp;
+        En <a href="/bibliotecas/editoras" class="library">Editoras</a>.
+
+      Iniciada por <a href="/somos/mpk9">Mpk9</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #d4d1c2">
+    <span class="references"><i class='icon-book'></i>&nbsp;2</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;3</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4967">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/editoras/clismon" class="name">Clismón</a>.&nbsp;
+        En <a href="/bibliotecas/editoras" class="library">Editoras</a>.
+
+      Iniciada por <a href="/somos/bookcamping">Bookcamping</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #4eaea8">
+    <span class="references"><i class='icon-book'></i>&nbsp;1</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4985">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/listas/vale-que-la-ciudad-era-nuestra-y-la-gestionabamos-" class="name">¿Vale que la ciudad era nuestra y la gestionábamos? Municipalismos.</a>.&nbsp;
+        En <a href="/bibliotecas/listas" class="library">Listas compartidas</a>.
+
+      Iniciada por <a href="/somos/bookcamping">Bookcamping</a>.
+      <span class="updated_at">
+        Actualizada hace más de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #008eb0">
+    <span class="references"><i class='icon-book'></i>&nbsp;11</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;4</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4989">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/cultura-libre/cocinando-ebooks-produccion-editorial-con-codigo-a" class="name">Cocinando eBooks: producción editorial con código abierto</a>.&nbsp;
+        En <a href="/bibliotecas/cultura-libre" class="library">Cultura Libre</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace más de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #67c095">
+    <span class="references"><i class='icon-book'></i>&nbsp;0</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;1</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4996">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/ciudad-mundos/un-marco-comun-muchos-proyectos" class="name">Un marco común, muchos proyectos</a>.&nbsp;
+        En <a href="/bibliotecas/ciudad-mundos" class="library">Una ciudad, muchos mundos</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 3 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #357391">
+    <span class="references"><i class='icon-book'></i>&nbsp;11</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;1</span>
+  </td>
+</tr>
+  </table>
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+    <article class="user" id="user_1">
+  <div class="header">
+  <div class="bloc">
+    <div class="count">
+      <i class='icon-upload'></i>&nbsp;411
+      <i class='icon-star'></i>&nbsp;2
+    </div>
+    <h1>
+      silvink
+      
+      <i class='icon-certificate'></i>&nbsp;
+      <small> <a href="http://twitter.com/silvink" target="_blank">@silvink</a></small>
+    </h1>
+  </div>
+  <div class="actions">
+    
+  </div>
+  <p><div class="markdown"><p>a veces se me va de las manos</p>
+</div></p>
+</div>
+
+
+  <h3>Recomendados por silvink</h3>
+<div class="references">
+  <div class="reference WebPage iconic" id="reference_1960" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1960-informe-sobre-el">Informe sobre el 25S Comisión de Análisis Sol 15M</a></h3>
+      <div class="more">Sept 2012 Comisión de Análisis Sol 15M </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2042" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2042-educacion-expandida-el">Educación Expandida, el libro</a></h3>
+      <div class="more">2012 AA. VV. Zemos98</div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <h3>Subidos por silvink</h3>
+<div class="references">
+  <div class="reference Book iconic" id="reference_1575" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1575-hipervelocidad-del-cierre">Hipervelocidad: Del cierre de Megaupload a la ‘World War Web’</a></h3>
+      <div class="more">Enero 2012 madrilonia.org </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_1574" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1574-la-neutralidad-en">LA NEUTRALIDAD EN LA RED. Y POR QUÉ ES UNA PÉSIMA IDEA ACABAR CON ELLA.</a></h3>
+      <div class="more"> Jose F. Alcántara Biblioteca de las Indias</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2696" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2696-instrumental">Instrumental</a></h3>
+      <div class="more">  </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2665" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2665-untying-the-knot">Untying the Knot</a></h3>
+      <div class="more">1970 Jo Freeman/Cathy Levine. </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2664" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2664-tras-la-morada">Tras la morada oculta de Marx </a></h3>
+      <div class="more">2014 Nancy Fraser New Left Review</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2663" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2663-juan-de-mairena">Juan de Mairena</a></h3>
+      <div class="more"> Antonio Machado </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2662" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2662-lo-que-no">Lo que no sabía no valía</a></h3>
+      <div class="more"> Adela Franzé Mundanó Consejo Económico y Social. Comunidad de Madrid</div>
+    </div>
+  </div>
+</div><div class="reference Video iconic" id="reference_2661" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2661-en-rachachant">En rachâchant</a></h3>
+      <div class="more">1982 Straub-Huillet  </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2660" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2660-producir-o-no">Producir o no producir...¿ese es el dilema? </a></h3>
+      <div class="more">2014 Grupo Esquizo Barcelona: Joel Audí, Nizaiá Cassián, Sandra Forcadell,Raquel García, Isabel River, Inés Santana, Lucía Serra, Miriam Sol i Torrelló. </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2659" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2659-nanopolitics-handbook">nanopolitics handbook</a></h3>
+      <div class="more">2013  Edited by
+Paolo Plotegher, Manuela Zechner and
+Bue Rübner Hansen.  minor compositions</div>
+    </div>
+  </div>
+</div>
+</div>
+</article>
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

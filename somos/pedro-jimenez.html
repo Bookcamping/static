@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pedro Jiménez :: bookcamping</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 12:46:43 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='https://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="UsersController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Bookcamping" class="logo" src="/assets/logos/bookcamping.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/listas">Listas compartidas</a></div>
+    <div class="head "></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunos libros para entender cómo hemos llegado hasta aquí (poque no salimos de la nada)</span>
+        <span class="slogan big">¿Y tú, qué libro te llevarías a tu plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="header">
+    <h4>Sigue las listas:</h4>
+  </div>
+  <table class="shelves small">
+    <tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4946">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/educacion-expandida" class="name">Educación Expandida</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/pedro-jimenez">Pedro Jiménez</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #4eaea8">
+    <span class="references"><i class='icon-book'></i>&nbsp;4</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;12</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4987">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/lo-cultura/politicas-culturales-del-ahora" class="name">Políticas Culturales del ahora</a>.&nbsp;
+        En <a href="/bibliotecas/lo-cultura" class="library">Lo Cultura</a>.
+
+      Iniciada por <a href="/somos/pedro-jimenez">Pedro Jiménez</a>.
+      <span class="updated_at">
+        Actualizada hace alrededor de 3 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #ee8587">
+    <span class="references"><i class='icon-book'></i>&nbsp;33</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4994">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/ciudad-mundos/dialogos-electro-flamencos" class="name">Diálogos Electro Flamencos</a>.&nbsp;
+        En <a href="/bibliotecas/ciudad-mundos" class="library">Una ciudad, muchos mundos</a>.
+
+      Iniciada por <a href="/somos/pedro-jimenez">Pedro Jiménez</a>.
+      <span class="updated_at">
+        Actualizada hace alrededor de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #967448">
+    <span class="references"><i class='icon-book'></i>&nbsp;3</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;1</span>
+  </td>
+</tr>
+  </table>
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+    <article class="user" id="user_185">
+  <div class="header">
+  <div class="bloc">
+    <div class="count">
+      <i class='icon-upload'></i>&nbsp;31
+      <i class='icon-star'></i>&nbsp;0
+    </div>
+    <h1>
+      Pedro Jiménez
+      
+      
+      <small> <a href="http://twitter.com/pedrojimenez" target="_blank">@pedrojimenez</a></small>
+    </h1>
+  </div>
+  <div class="actions">
+    
+  </div>
+  <p><div class="markdown"></div></p>
+</div>
+
+
+
+  <h3>Subidos por Pedro Jiménez</h3>
+<div class="references">
+  <div class="reference WebPage iconic" id="reference_2633" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2633-que-le-esta">¿Qué le está faltando a la cultura municipal?</a></h3>
+      <div class="more">2015 M. Antònia Ferragut  </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2603" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2603-la-crema-del">La &quot;cremà&quot; del MACBA</a></h3>
+      <div class="more">2015 Jorge Luis Marzo </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2602" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2602-el-museo-apagado">El museo apagado</a></h3>
+      <div class="more">2015 Paul B. Preciado El Estado Mental</div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2601" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2601-algunas-reflexiones-al">ALGUNAS REFLEXIONES AL HILO DE LA DESAPARICIÓN DE ZEMOS98</a></h3>
+      <div class="more">2015 Santiago Eraso </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2599" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2599-y-el-festival">Y el Festival ZEMOS98 se ahogó</a></h3>
+      <div class="more">2015 ZEMOS98 ZEMOS98</div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2598" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2598-pocas-diferencias-en">Pocas diferencias en los programas electorales de cultura en Andalucía</a></h3>
+      <div class="more">2015 Pedro Jiménez El Diario.es / Andalucía</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2597" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2597-sobre-los-horacios">Sobre los horacios y los curiacios</a></h3>
+      <div class="more">2004 Belén Gopegui </div>
+    </div>
+  </div>
+</div><div class="reference Video iconic" id="reference_2595" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2595-diagnostico-de-la">Diagnóstico de la política cultural de la Junta de Andalucía según la PAD</a></h3>
+      <div class="more">2015 Miguel López </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2594" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2594-democracia-y-acceso">Democracia y acceso a la cultura</a></h3>
+      <div class="more">2015 Santiago Eraso </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2592" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2592-los-monopolios-digitales">“Los monopolios digitales se están beneficiando de la difusión de la cultura”</a></h3>
+      <div class="more">2015 Podemos Cultura Playground</div>
+    </div>
+  </div>
+</div>
+</div>
+</article>
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

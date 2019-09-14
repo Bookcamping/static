@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kamen :: bookcamping</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 12:46:43 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='https://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="UsersController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Bookcamping" class="logo" src="/assets/logos/bookcamping.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/listas">Listas compartidas</a></div>
+    <div class="head "></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunos libros para entender cómo hemos llegado hasta aquí (poque no salimos de la nada)</span>
+        <span class="slogan big">¿Y tú, qué libro te llevarías a tu plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="header">
+    <h4>Sigue las listas:</h4>
+  </div>
+  <table class="shelves small">
+    <tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4928">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/archivos/archivo-biblioteca-yp" class="name">Archivo Biblioteca YP</a>.&nbsp;
+        En <a href="/bibliotecas/archivos" class="library">Archivos, bibliotecas</a>.
+
+      Iniciada por <a href="/somos/kamen">Kamen</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;21</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_29">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/tecnologias-de-liberacion-tecnologias-liberadas" class="name">TECNOLOGÍAS DE LIBERACIÓN / TECNOLOGÍAS LIBERADAS</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/kamen">Kamen</a>.
+      <span class="updated_at">
+        Actualizada hace casi 3 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #44adc6">
+    <span class="references"><i class='icon-book'></i>&nbsp;115</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;4</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_22">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/contraculturas-y-arte-critico-desde-la-base-desde-" class="name">CONTRACULTURAS Y ARTE CRÍTICO. DESDE LA BASE, DESDE LOS MÁRGENES, DESDE SIEMPRE</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/kamen">Kamen</a>.
+      <span class="updated_at">
+        Actualizada hace alrededor de 4 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #e18256">
+    <span class="references"><i class='icon-book'></i>&nbsp;303</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;8</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4942">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/listas/soundreaders" class="name">SoundReaders</a>.&nbsp;
+        En <a href="/bibliotecas/listas" class="library">Listas compartidas</a>.
+
+      Iniciada por <a href="/somos/kamen">Kamen</a>.
+      <span class="updated_at">
+        Actualizada hace casi 7 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #008eb0">
+    <span class="references"><i class='icon-book'></i>&nbsp;11</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;2</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4939">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estapasando/nuestro-proceso-constituyente-25s" class="name">Nuestro proceso constituyente: #25S</a>.&nbsp;
+        En <a href="/bibliotecas/estapasando" class="library">Está pasando</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;47</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4927">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/pantallas-television-mentiras-y-cintas-de-video" class="name">Pantallas: televisión, mentiras y cintas de vídeo</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/ingrid-guardiola">Ingrid Guardiola</a>.
+      <span class="updated_at">
+        Actualizada hace más de 1 año
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #db533d">
+    <span class="references"><i class='icon-book'></i>&nbsp;13</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;7</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4945">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/cultura-libre/grafica-libre-libre-graphic" class="name">Gráfica Libre / Libre Graphic</a>.&nbsp;
+        En <a href="/bibliotecas/cultura-libre" class="library">Cultura Libre</a>.
+
+      Iniciada por <a href="/somos/ana-garcia-angulo">Ana Garcia Angulo</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #44adc6">
+    <span class="references"><i class='icon-book'></i>&nbsp;28</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;8</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4946">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/educacion-expandida" class="name">Educación Expandida</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/pedro-jimenez">Pedro Jiménez</a>.
+      <span class="updated_at">
+        Actualizada hace más de 6 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #4eaea8">
+    <span class="references"><i class='icon-book'></i>&nbsp;4</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;12</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4947">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/visitas/soft-power-arte-tecnologias-y-biopoder" class="name">Soft Power. Arte, tecnologías y biopoder</a>.&nbsp;
+        En <a href="/bibliotecas/visitas" class="library">Visitas guiadas</a>.
+
+      Iniciada por <a href="/somos/maria-ptqk">Maria Ptqk</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #44adc6">
+    <span class="references"><i class='icon-book'></i>&nbsp;7</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;6</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4949">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/archivos/archivos-laboratorios-del-devenir" class="name">Archivos: laboratorios del devenir</a>.&nbsp;
+        En <a href="/bibliotecas/archivos" class="library">Archivos, bibliotecas</a>.
+
+      Iniciada por <a href="/somos/silvink">silvink</a>.
+      <span class="updated_at">
+        Actualizada hace casi 5 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #f68b1f">
+    <span class="references"><i class='icon-book'></i>&nbsp;21</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;7</span>
+  </td>
+</tr><tr class="spacer"></tr>
+<tr class="shelf" id="shelf_4975">
+
+  <td class="before">
+  </td>
+
+  <td class="shelf-content">
+    <div class="data">
+      <a href="/estanterias/hormiga-contra-elefante-blanco-la-cultura-ocupa-la" class="name">Hormiga contra elefante blanco: La cultura ocupa la institución</a>.&nbsp;
+        En <a href="/bibliotecas/estanterias" class="library">bookcamping</a>.
+
+      Iniciada por <a href="/somos/kamen">Kamen</a>.
+      <span class="updated_at">
+        Actualizada hace más de 3 años
+      </span>
+    </div>
+  </td>
+
+  <td class="after" style="background-color: #d4d1c2">
+    <span class="references"><i class='icon-book'></i>&nbsp;58</span>
+    <span class="followers"><i class='icon-eye-open'></i>&nbsp;5</span>
+  </td>
+</tr>
+  </table>
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+    <article class="user" id="user_20">
+  <div class="header">
+  <div class="bloc">
+    <div class="count">
+      <i class='icon-upload'></i>&nbsp;438
+      <i class='icon-star'></i>&nbsp;2
+    </div>
+    <h1>
+      Kamen
+      
+      <i class='icon-certificate'></i>&nbsp;
+      <small> <a href="http://twitter.com/kamen" target="_blank">@kamen</a></small>
+    </h1>
+  </div>
+  <div class="actions">
+    
+  </div>
+  <p><div class="markdown"><p>I break things. <a href="http://www.waitingforcargo.net">http://www.waitingforcargo.net</a></p>
+</div></p>
+</div>
+
+
+  <h3>Recomendados por Kamen</h3>
+<div class="references">
+  <div class="reference WebPage iconic" id="reference_1936" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1936-la-auralidad-consensuada">La auralidad consensuada. Paisaje sonoro y redes sociales</a></h3>
+      <div class="more">2007 Juan Gil Escoitar</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2195" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2195-cultura-libre-editorial">Cultura Libre Editorial, ¿modelos sostenibles?</a></h3>
+      <div class="more">2013 Silvia Nanclares/Bookcamping Teknocultura</div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <h3>Subidos por Kamen</h3>
+<div class="references">
+  <div class="reference Book iconic" id="reference_1589" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1589-mujeres-con-pajarita">Mujeres con pajarita #1</a></h3>
+      <div class="more">2012 Mujeres con pajarita </div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_1576" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1576-hipervelocidad-y-errores">Hipervelocidad y errores de concepto</a></h3>
+      <div class="more">2012 Los comunes Nodo 50 / Los comunes</div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2457" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2457-miedo-a-la">Miedo a la resaca: la necesidad de protestas en la cultura</a></h3>
+      <div class="more">2013 Elena Cabrera Playground Magazine</div>
+    </div>
+  </div>
+</div><div class="reference Audio iconic" id="reference_2456" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2456-anonimo-paisaje-ideologico-sonoro">Anónimo: Paisaje ideológico-sonoro del Museo Reina Sofía </a></h3>
+      <div class="more">2013 AA. VV. RRS. Radio del Museo Reina Sofía</div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2451" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2451-encierro-en-el">Encierro en el Reina Sofía: Derechos, democracia y dignidad para la cultura y la comunicación</a></h3>
+      <div class="more">2013 AA. VV. </div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2450" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2450-culture-cuts-where">Culture cuts: where austerity measures are curtailing the arts – map</a></h3>
+      <div class="more">2013 Mark Rice-Oxley, Paul Torpey, Sean Clarke	 The Guardian</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2449" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2449-el-pueblo-toma">El pueblo toma los Renoir</a></h3>
+      <div class="more">2013 Carlos Prieto El confidencial</div>
+    </div>
+  </div>
+</div><div class="reference WebPage iconic" id="reference_2442" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2442-occupy-museums-speaking">Occupy Museums! Speaking out in front of the Cannons</a></h3>
+      <div class="more">2011 AA. VV., Paddy Johnson Autoeditado</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2195" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2195-cultura-libre-editorial">Cultura Libre Editorial, ¿modelos sostenibles?</a></h3>
+      <div class="more">2013 Silvia Nanclares/Bookcamping Teknocultura</div>
+    </div>
+  </div>
+</div><div class="reference Book iconic" id="reference_2143" style="background-color: #AAA">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2143-trece-mitos-sobre">Trece mitos sobre las nuevas tecnologías de la información y de la comunicación</a></h3>
+      <div class="more">2000 Roberto Aparici Revista KIKIRIKI, nº 58</div>
+    </div>
+  </div>
+</div>
+</div>
+</article>
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
