@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>REMIX :: videocamping</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 07:42:36 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="ShelvesController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Videocamping" class="logo" src="/assets/logos/videocamping.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail current"></div>
+    <div class="content current"><a href="/videoclub">videocamping</a></div>
+    <div class="head current"></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/listas">Listas compartidas</a></div>
+    <div class="head "></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunos vídeos para entender cómo hemos llegado hasta aquí (porque no salimos de la nada)</span>
+        <span class="slogan big">¿Y tú, qué vídeo te llevarías a tu plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="arrow-button right">
+    <div class="img left"></div>
+    <div class="img right"></div>
+    <div class="content"><a href="/estantes/nueva?s=remix" data-action="add_shelf_item">Añadir referencia</a></div>
+    </div>
+
+<!-- TODO: remove view
+<div class="shelf_view">
+  <h5>Ver como...</h5>
+  <a href="#" id="as_list"><i class="icon-list"></i> Lista</a>
+  <a href="#" id="as_icons"><i class="icon-th"></i> Iconos</a>
+</div>
+-->
+
+<div class="filter tags">
+  
+</div>
+
+<!-- TODO: remove view
+<div class="editors">
+<h5>Han participado:</h5>
+      ()
+</div>
+-->
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+      <div class="shelf" id="shelf_26">
+  <div class="header">
+    <div class="bloc">
+  <div class="actions">
+    
+  </div>
+  <!-- TODO: remove
+  <div class="count" style="background-color: #e9c54b ">
+  </div>
+-->
+  <h2><a href="/bibliotecas/videoclub">videocamping</a></h2>
+  <h1>
+    REMIX
+  </h1>
+  <div class="social">
+    Iniciada el 29/05/2011 por <a href="/somos/insultarte">insultARTE</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="new_shelf_item_quick alert alert-block" style="display: none">
+  <form accept-charset="UTF-8" action="/referencia" class="simple_form new_reference" id="new_reference" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="etYChgynSJfJGC0kziSxTSWNTGBX36MttvaWfQHft1g=" /></div>
+    <input id="s" name="s" type="hidden" value="26" />
+    <div class="control-group autocomplete required reference_title"><label class="autocomplete required control-label" for="reference_title"><abbr title="obligatorio">*</abbr> Título</label><div class="controls"><input class="autocomplete required" data-autocomplete="/referencia/autocomplete_reference_title" id="reference_title" name="reference[title]" size="30" type="text" /></div></div>
+    <input name="commit" type="submit" value="Añadir" />
+</form></div>
+
+
+  <div class="references list icons-only">
+    <div class="filter user alert alert-info" style="display: none">
+  Estás viendo las entradas de <strong class="user_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+<div class="filter tag alert alert-info" style="display: none">
+  Estás viendo las entradas etiquetadas con <strong class="tag_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+
+
+
+      <div class="mobject shelf_item"
+  data-user_id="195"
+  data-tags="" >
+  <a name="ver-1471-nuevas-realidades-video-politicas"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1471" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1471-nuevas-realidades-video-politicas">#Nuevas Realidades Vídeo-Políticas (#NRVP) </a></h3>
+      <div class="more">12-2012  </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="455"
+  data-tags="" >
+  <a name="ver-1357-dramatis-personae"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1357" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1357-dramatis-personae">DRAMATIS PERSONAE </a></h3>
+      <div class="more">2005 Laboratorium Laboratorium</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="455"
+  data-tags="" >
+  <a name="ver-1355-como-dibujar-animales"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1355" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1355-como-dibujar-animales">Cómo dibujar animales tristes o cuaderno de todas las cosas vivas y muertas que imaginé la noche que te fuiste para siempre.</a></h3>
+      <div class="more">2009 Laboratorium Laboratorium</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="455"
+  data-tags="" >
+  <a name="ver-1334-all-creative-work"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1334" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1334-all-creative-work">All Creative Work Is Derivative</a></h3>
+      <div class="more"> Nina Paley </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="455"
+  data-tags="" >
+  <a name="ver-1333-nijuman-no-borei"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1333" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1333-nijuman-no-borei">Nijuman no borei / 200000 Phantoms</a></h3>
+      <div class="more">2007 Jean Gabriel Periot Envie de Tempête Productions</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="455"
+  data-tags="" >
+  <a name="ver-1332-eut-elle-ete-criminelle"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1332" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1332-eut-elle-ete-criminelle">Eût-elle été criminelle... / Even If She Had Been A Criminal...</a></h3>
+      <div class="more">2006 Jean Gabriel Periot Envie de Tempête Productions</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="213"
+  data-tags="" >
+  <a name="ver-1270-100-globalchange"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1270" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1270-100-globalchange">100% Globalchange</a></h3>
+      <div class="more">2011 Fur Alle Falle </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="275"
+  data-tags="" >
+  <a name="ver-1121-rip-a-remix"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1121" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1121-rip-a-remix">Rip a Remix Manifesto V.O. Subtitulada Castellano</a></h3>
+      <div class="more">17/10/2008 Brett Gaylor EyeSteelFilm</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="235"
+  data-tags="" >
+  <a name="ver-1052-secreto-para-despertar"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1052" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1052-secreto-para-despertar">Secreto para despertar al pueblo</a></h3>
+      <div class="more"> Daniel Cuberta </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="235"
+  data-tags="" >
+  <a name="ver-1051-revolucion"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_1051" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/1051-revolucion">Revolución</a></h3>
+      <div class="more"> Daniel Cuberta </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="185"
+  data-tags="" >
+  <a name="ver-797-la-escucha"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_797" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/797-la-escucha">La Escucha</a></h3>
+      <div class="more">Abril 2010 ZEMOS98 ZEMOS98 y Producciones Doradas</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-535-rip-a-remix"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_535" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/535-rip-a-remix">Rip a remix manifesto</a></h3>
+      <div class="more">20 de enero de 2009 Brett Gaylor opersourcecinema.org</div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-250-good-copy-bad"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_250" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/250-good-copy-bad">Good Copy Bad Copy</a></h3>
+      <div class="more">2007 Andreas Johnsen, Ralf Christensen &amp; Henrik Moltke. </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="101"
+  data-tags="" >
+  <a name="ver-590-espacios-electorales"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_590" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/590-espacios-electorales">Espacios Electorales</a></h3>
+      <div class="more">2009 Los Ganglios </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-567-everything-is-a"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_567" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/567-everything-is-a">Everything is a Remix</a></h3>
+      <div class="more">2010 Kirby Ferguson </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="49"
+  data-tags="" >
+  <a name="ver-545-estafa"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_545" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/545-estafa">ESTAFA!</a></h3>
+      <div class="more">2007 Esferobite (Austrohúngaro) </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="42"
+  data-tags="" >
+  <a name="ver-544-copyright-is-for"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_544" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/544-copyright-is-for">Copyright is for losers</a></h3>
+      <div class="more">2008 Ninotchka Art Proiect </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="84"
+  data-tags="" >
+  <a name="ver-537-waking-life"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_537" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/537-waking-life">Waking Life</a></h3>
+      <div class="more"> Richard Linklater </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="42"
+  data-tags="" >
+  <a name="ver-422-del-poder"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_422" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/422-del-poder">Del poder</a></h3>
+      <div class="more">2011 Zaván </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="42"
+  data-tags="" >
+  <a name="ver-521-loose-ends"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_521" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/521-loose-ends">Loose Ends</a></h3>
+      <div class="more">1979 Chick Strand </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="42"
+  data-tags="" >
+  <a name="ver-517-l-art-delicat-de"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_517" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/517-l-art-delicat-de">L&#x27;Art délicat de la matraque</a></h3>
+      <div class="more">2009 Jean Gabriel Periot </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="42"
+  data-tags="" >
+  <a name="ver-518-les-barbares"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_518" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/518-les-barbares">Les Barbares</a></h3>
+      <div class="more">2010 Jean Gabriel Periot </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-495-con-vuestros-golpes"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_495" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/495-con-vuestros-golpes">Con vuestros golpes creamos ritmos </a></h3>
+      <div class="more">2010 Tamajoni </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-494-donald-duck-meets"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_494" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/494-donald-duck-meets">Donald Duck Meets Glenn Beck in Right Wing Radio Duck </a></h3>
+      <div class="more">2010  </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+<div class="mobject shelf_item"
+  data-user_id="39"
+  data-tags="" >
+  <a name="ver-493-collision"></a>
+  <div class="img">
+    <div class="reference Video iconic" id="reference_493" style="background-color: #e9c54b ">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/493-collision">Collision</a></h3>
+      <div class="more">2005 Max Hattler&#x27;s </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="payload">
+  
+  </div>
+</div>
+
+  </div>
+</div>
+
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
