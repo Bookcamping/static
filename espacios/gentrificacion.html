@@ -1,0 +1,1829 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gentrificación :: Espacios, ciudades</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 08:26:48 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='https://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="ShelvesController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Bookcamping" class="logo" src="/assets/logos/bookcamping.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/listas">Listas compartidas</a></div>
+    <div class="head "></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunos libros para entender cómo hemos llegado hasta aquí (poque no salimos de la nada)</span>
+        <span class="slogan big">¿Y tú, qué libro te llevarías a tu plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="arrow-button right">
+    <div class="img left"></div>
+    <div class="img right"></div>
+    <div class="content"><a href="/estantes/nueva?s=gentrificacion" data-action="add_shelf_item">Añadir referencia</a></div>
+    </div>
+
+<!-- TODO: remove view
+<div class="shelf_view">
+  <h5>Ver como...</h5>
+  <a href="#" id="as_list"><i class="icon-list"></i> Lista</a>
+  <a href="#" id="as_icons"><i class="icon-th"></i> Iconos</a>
+</div>
+-->
+
+<div class="filter tags">
+  <span class="tag" id="tag_110">
+  <a href="/tags/movimientos-sociales">movimientos sociales</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_117">
+  <a href="/tags/cultura">cultura</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_321">
+  <a href="/tags/urbanismo">urbanismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_307">
+  <a href="/tags/espacio-publico">espacio público</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_225">
+  <a href="/tags/tesis">tesis</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_678">
+  <a href="/tags/resistencia">resistencia</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_700">
+  <a href="/tags/barcelona">barcelona</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_670">
+  <a href="/tags/gentrification">gentrification</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_93">
+  <a href="/tags/neoliberalismo">neoliberalismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_698">
+  <a href="/tags/culturas-de-control">culturas de control</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_696">
+  <a href="/tags/raval">raval</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_594">
+  <a href="/tags/transformacion-urbana">transformación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_663">
+  <a href="/tags/acoso-inmobiliario">acoso inmobiliario</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_667">
+  <a href="/tags/analisis-de-discurso">análisis de discurso</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_707">
+  <a href="/tags/casco-antiguo">casco antiguo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_596">
+  <a href="/tags/cascos-antiguos">cascos antiguos</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_682">
+  <a href="/tags/city">city</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_699">
+  <a href="/tags/civismo">civismo.</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_684">
+  <a href="/tags/class-analysis">class analysis</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_687">
+  <a href="/tags/conflicto-urbano">conflicto urbano</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_709">
+  <a href="/tags/degradacion">degradación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_705">
+  <a href="/tags/demanda">demanda</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_662">
+  <a href="/tags/desplazamiento">desplazamiento</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_691">
+  <a href="/tags/diferencial-de-renta">diferencial de renta</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_692">
+  <a href="/tags/elitizacion">elitización</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_694">
+  <a href="/tags/enclaves-culturales">enclaves culturales</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_710">
+  <a href="/tags/fotoelicitacion">fotoelicitación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_595">
+  <a href="/tags/geografia-critica">geografía crítica</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_665">
+  <a href="/tags/geografia-social">geografía social</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_712">
+  <a href="/tags/grupos-triangulares">grupos triangulares</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_664">
+  <a href="/tags/historia-urbana">historia urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_706">
+  <a href="/tags/inmigracion">inmigración</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_668">
+  <a href="/tags/king-s-cross">king´s cross</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_675">
+  <a href="/tags/latin-america">latin america</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_711">
+  <a href="/tags/lavapies">lavapiés</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_686">
+  <a href="/tags/lucha-de-clases">lucha de clases</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_677">
+  <a href="/tags/mercado-inmobiliario">mercado inmobiliario</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_671">
+  <a href="/tags/neoliberalism">neoliberalism</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_704">
+  <a href="/tags/oferta">oferta</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_703">
+  <a href="/tags/otherness">otherness</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_688">
+  <a href="/tags/patrimonio">patrimonio</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_680">
+  <a href="/tags/politicas-urbanas">políticas urbanas</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_681">
+  <a href="/tags/proletariat">proletariat</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_666">
+  <a href="/tags/regeneracion-urbana">regeneración urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_708">
+  <a href="/tags/renovacion">renovación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_693">
+  <a href="/tags/renovacion-urbana">renovación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_673">
+  <a href="/tags/resistance">resistance</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_672">
+  <a href="/tags/revanchism">revanchism</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_593">
+  <a href="/tags/revanchismo">revanchismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_679">
+  <a href="/tags/santiago-de-chile">santiago de chile</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_695">
+  <a href="/tags/segregacion">segregación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_689">
+  <a href="/tags/segregacion-urbana">segregación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_669">
+  <a href="/tags/sociologia-urbana">sociología urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_674">
+  <a href="/tags/spain">spain</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_676">
+  <a href="/tags/teoria-urbana-critica">teoría urbana crítica</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_683">
+  <a href="/tags/tom-slater">tom slater</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_697">
+  <a href="/tags/transformaciones-urbanisticas">transformaciones 
+urbanísticas</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_685">
+  <a href="/tags/urban-transformation">urban transformation</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_701">
+  <a href="/tags/vida-urbana">vida urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_702">
+  <a href="/tags/violencia">violencia</a><!--small>&nbsp;()</small-->
+</span>
+</div>
+
+<!-- TODO: remove view
+<div class="editors">
+<h5>Han participado:</h5>
+      ()
+</div>
+-->
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+      <div class="shelf" id="shelf_4970">
+  <div class="header">
+    <div class="bloc">
+  <div class="actions">
+    
+  </div>
+  <!-- TODO: remove
+  <div class="count" style="background-color: #c14f52">
+  </div>
+-->
+  <h2><a href="/bibliotecas/espacios">Espacios, ciudades</a></h2>
+  <h1>
+    Gentrificación
+  </h1>
+  <div class="social">
+    Iniciada el 09/04/2013 por <a href="/somos/david-p">David P.</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="new_shelf_item_quick alert alert-block" style="display: none">
+  <form accept-charset="UTF-8" action="/referencia" class="simple_form new_reference" id="new_reference" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="XK40hAIUF957qcwb2GMzMmmKT0UwcddjHRRW6PkASyg=" /></div>
+    <input id="s" name="s" type="hidden" value="4970" />
+    <div class="control-group autocomplete required reference_title"><label class="autocomplete required control-label" for="reference_title"><abbr title="obligatorio">*</abbr> Título</label><div class="controls"><input class="autocomplete required" data-autocomplete="/referencia/autocomplete_reference_title" id="reference_title" name="reference[title]" size="30" type="text" /></div></div>
+    <input name="commit" type="submit" value="Añadir" />
+</form></div>
+
+
+  <div class="references list">
+    <div class="filter user alert alert-info" style="display: none">
+  Estás viendo las entradas de <strong class="user_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+<div class="filter tag alert alert-info" style="display: none">
+  Estás viendo las entradas etiquetadas con <strong class="tag_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+
+
+
+        <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación" >
+    <a name="ver-2507-the-return-from"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2507" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2507-the-return-from">the return from the sububs and the structuring of the urban space: state involvment in society hill, philadelphia</a></h3>
+      <div class="more">1977 Neil Smith </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2507-the-return-from">the return from the sububs and the structuring of the urban space: state involvment in society hill, philadelphia</a></div>
+        <div class="ref-info">
+          Por Neil Smith // 1977 // 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2507-the-return-from">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Undergraduate dissertation. Completed in January 1977, this is a foundational document for gentrification research, presenting the results of a landmark piece of scholarship in urban studies. Although his hugely influential &#39;rent gap&#39; thesis did not emerge until two years later, there are many tantalising glimpses of what was to come. It&#39;s beautifully written and shows remarkable scientific pro...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 13/12/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="fotoelicitación,lavapiés,grupos triangulares,gentrificación" >
+    <a name="ver-2506-las-politicas-de"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2506" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2506-las-politicas-de">LAS POLÍTICAS DE GENTRIFICACIÓN EN LA CIUDAD NEOLIBERAL</a></h3>
+      <div class="more">2013 Jorge Sequera UCM</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2506-las-politicas-de">LAS POLÍTICAS DE GENTRIFICACIÓN EN LA CIUDAD NEOLIBERAL</a></div>
+        <div class="ref-info">
+          Por Jorge Sequera // 2013 // UCM
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_710">
+  <a href="/tags/fotoelicitacion">fotoelicitación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_711">
+  <a href="/tags/lavapies">lavapiés</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_712">
+  <a href="/tags/grupos-triangulares">grupos triangulares</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2506-las-politicas-de">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>LAS POLÍTICAS DE GENTRIFICACIÓN EN LA CIUDAD NEOLIBERAL </p>
+
+<p>NUEVAS CLASES MEDIAS, PRODUCCIÓN CULTURAL Y GESTIÓN DEL ESPACIO 
+PÚBLICO. EL CASO DE LAVAPIÉS EN EL CENTRO HISTÓRICO DE MADRID </p>
+
+<p>TESIS DOCTORAL DE: 
+JORGE SEQUERA FERNÁNDEZ </p>
+
+<p>DIRIGIDA POR: 
+MARIO DOMÍNGUEZ SÁNCHEZ-PINILLA</p>
+
+<p><a href="http://eprints.ucm.es/23816/1/T34970.pdf">http://eprints.ucm.es/23816/1/T34970.pdf</a></p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 05/12/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,inmigración,casco antiguo,renovación,degradación" >
+    <a name="ver-2505-gentrificacion-e-inmigracion"></a>
+    <div class="img">
+      <div class="reference WebPage iconic" id="reference_2505" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2505-gentrificacion-e-inmigracion">GENTRIFICACIÓN E INMIGRACIÓN EN LOS CENTROS HISTÓRICOS: EL CASO DEL BARRIO DEL RAVAL EN BARCELONA</a></h3>
+      <div class="more">2001 Ma Alba Sargatal Scripta Nova. Revista Electrónica de Geografía y Ciencias Sociales.</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2505-gentrificacion-e-inmigracion">GENTRIFICACIÓN E INMIGRACIÓN EN LOS CENTROS HISTÓRICOS: EL CASO DEL BARRIO DEL RAVAL EN BARCELONA</a></div>
+        <div class="ref-info">
+          Por Ma Alba Sargatal // 2001 // Scripta Nova. Revista Electrónica de Geografía y Ciencias Sociales.
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_706">
+  <a href="/tags/inmigracion">inmigración</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_707">
+  <a href="/tags/casco-antiguo">casco antiguo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_708">
+  <a href="/tags/renovacion">renovación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_709">
+  <a href="/tags/degradacion">degradación</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2505-gentrificacion-e-inmigracion">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Durante los últimos años, los cascos antiguos de las ciudades europeas y norteamericanas están experimentando procesos muy contrastados; en ellos se instalan numerosos inmigrantes extranjeros -con frecuencia en viviendas sin condiciones-, al mismo tiempo que estas áreas son objeto de profundas reformas de mejora destinadas a atraer a clases sociales bien situadas. Exponemos el caso de un ba...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 27/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrification,otherness,oferta,demanda" >
+    <a name="ver-2504-what-makes-gentrification"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2504" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2504-what-makes-gentrification">What Makes Gentrification &#x27;Gentrification&#x27;?</a></h3>
+      <div class="more">2003 P. A. Redfern Urban Studies. SAGE</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2504-what-makes-gentrification">What Makes Gentrification &#x27;Gentrification&#x27;?</a></div>
+        <div class="ref-info">
+          Por P. A. Redfern // 2003 // Urban Studies. SAGE
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_670">
+  <a href="/tags/gentrification">gentrification</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_703">
+  <a href="/tags/otherness">otherness</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_704">
+  <a href="/tags/oferta">oferta</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_705">
+  <a href="/tags/demanda">demanda</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2504-what-makes-gentrification">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>This paper looks at demand issues in gentrification. It takes as its basic proposition that everyone involved in the demand side belongs to the same economic class and therefore possesses the same set of motivations; that ‘otherness’ in gentrification is something that needs to be problematised rather than assumed. It argues that the presumption of otherness arises because accounts of demand fo...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 27/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="raval,barcelona,urbanismo,vida urbana,culturas de control,violencia" >
+    <a name="ver-2503-matar-al-chino"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2503" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2503-matar-al-chino">Matar al “Chino”. Entre la revolución urbanística y el asedio urbano en el barrio del Raval de Barcelona</a></h3>
+      <div class="more">2012 Miquel Fernández Tesis doctoral/Universidad de Barcelona</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2503-matar-al-chino">Matar al “Chino”. Entre la revolución urbanística y el asedio urbano en el barrio del Raval de Barcelona</a></div>
+        <div class="ref-info">
+          Por Miquel Fernández // 2012 // Tesis doctoral/Universidad de Barcelona
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_696">
+  <a href="/tags/raval">raval</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_700">
+  <a href="/tags/barcelona">barcelona</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_321">
+  <a href="/tags/urbanismo">urbanismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_701">
+  <a href="/tags/vida-urbana">vida urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_698">
+  <a href="/tags/culturas-de-control">culturas de control</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_702">
+  <a href="/tags/violencia">violencia</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2503-matar-al-chino">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Esta tesis estudia las alteraciones de la vida urbana en la calle d&#39;en Robador del barrio del Raval de Barcelona como consecuencia de las intervenciones urbanísticas que allí se han producido en los últimos veinte años. Las incisiones urbanísticas en el Raval han comportado destrucción de patrimonio arquitectónico, habitacional y cultural de gran valor. Asimismo, han generado expulsiones...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 27/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="raval,espacio público,transformaciones 
+urbanísticas,culturas de control,civismo." >
+    <a name="ver-2502-asaltar-el-raval"></a>
+    <div class="img">
+      <div class="reference WebPage iconic" id="reference_2502" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2502-asaltar-el-raval">Asaltar el Raval. Control de población y producción de plusvalías en el  barrio barcelonés </a></h3>
+      <div class="more">2012 Miquel Fernández Urbs. Revista de Estudios Urbanos y Ciencias Sociales</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2502-asaltar-el-raval">Asaltar el Raval. Control de población y producción de plusvalías en el  barrio barcelonés </a></div>
+        <div class="ref-info">
+          Por Miquel Fernández // 2012 // Urbs. Revista de Estudios Urbanos y Ciencias Sociales
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_696">
+  <a href="/tags/raval">raval</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_307">
+  <a href="/tags/espacio-publico">espacio público</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_697">
+  <a href="/tags/transformaciones-urbanisticas">transformaciones 
+urbanísticas</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_698">
+  <a href="/tags/culturas-de-control">culturas de control</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_699">
+  <a href="/tags/civismo">civismo.</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2502-asaltar-el-raval">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Barcelona ha sufrido importantes transformaciones 
+urbanas generalmente propulsadas con la excusa de la 
+organización de un macro acontecimiento. Estas incisiones perpetradas en el espacio público se han justificado recientemente con el discurso de la necesidad de introducir Barcelona en el mercado de las Ciudades Globales. En estas ciudades se delega la producción de beneficios en el sector ...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 27/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2501-the-fine-art"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2501" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2501-the-fine-art">The Fine Art of Gentrification</a></h3>
+      <div class="more">1984 Rosalyn Deutsche and Cara Gendel Ryan October</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2501-the-fine-art">The Fine Art of Gentrification</a></div>
+        <div class="ref-info">
+          Por Rosalyn Deutsche and Cara Gendel Ryan // 1984 // October
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2501-the-fine-art">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>October, Vol. 31 (Winter, 1984), pp. 91-111</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 21/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,elitización,renovación urbana,enclaves culturales,segregación" >
+    <a name="ver-2500-la-gentrificacion-en"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2500" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2500-la-gentrificacion-en">LA GENTRIFICACIÓN EN LA CAMBIANTE ESTRUCTURA SOCIOESPACIAL DE LA CIUDAD</a></h3>
+      <div class="more">2013 Ibán Díaz Parra Biblio 3W  REVISTA BIBLIOGRÁFICA DE GEOGRAFÍA Y CIENCIAS SOCIALES </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2500-la-gentrificacion-en">LA GENTRIFICACIÓN EN LA CAMBIANTE ESTRUCTURA SOCIOESPACIAL DE LA CIUDAD</a></div>
+        <div class="ref-info">
+          Por Ibán Díaz Parra // 2013 // Biblio 3W  REVISTA BIBLIOGRÁFICA DE GEOGRAFÍA Y CIENCIAS SOCIALES 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_692">
+  <a href="/tags/elitizacion">elitización</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_693">
+  <a href="/tags/renovacion-urbana">renovación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_694">
+  <a href="/tags/enclaves-culturales">enclaves culturales</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_695">
+  <a href="/tags/segregacion">segregación</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2500-la-gentrificacion-en">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>La gentrificación es un concepto de gran utilidad para comprender las transformaciones recientes de los centros urbanos y con una creciente difusión en el Estado español y Latinoamérica. Sin embargo, su uso se enfrenta a diversos obstáculos, entre ellos a una cierta indefinición sobre sus aspectos básicos y su relación con procesos que pueden desarrollarse de forma simultánea o complementaria p...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 21/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,cultura,patrimonio,segregación urbana,diferencial de renta" >
+    <a name="ver-2499-gentrificacion-y-cultura"></a>
+    <div class="img">
+      <div class="reference WebPage iconic" id="reference_2499" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2499-gentrificacion-y-cultura">GENTRIFICACIÓN Y CULTURA: ALGUNAS REFLEXIONES</a></h3>
+      <div class="more">2011 Martín Manuel Checa-Artasu Biblio 3W  REVISTA BIBLIOGRÁFICA DE GEOGRAFÍA Y CIENCIAS SOCIALES </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2499-gentrificacion-y-cultura">GENTRIFICACIÓN Y CULTURA: ALGUNAS REFLEXIONES</a></div>
+        <div class="ref-info">
+          Por Martín Manuel Checa-Artasu // 2011 // Biblio 3W  REVISTA BIBLIOGRÁFICA DE GEOGRAFÍA Y CIENCIAS SOCIALES 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_117">
+  <a href="/tags/cultura">cultura</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_688">
+  <a href="/tags/patrimonio">patrimonio</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_689">
+  <a href="/tags/segregacion-urbana">segregación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_691">
+  <a href="/tags/diferencial-de-renta">diferencial de renta</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2499-gentrificacion-y-cultura">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Se presenta una aproximación, a manera de estado del arte sobre el fenómeno de la gentrificación atendiendo con detalle al papel que juega la cultura en el desarrollo del mismo. Esta actúa como generadora de los mecanismos que impulsan la gentrificación. Para este trabajo, se entiende como cultura aquello que tiene que ver con el patrimonio cultural en la ciudad y su gestión, con la presencia d...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 21/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2497-del-chino-al"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2497" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2497-del-chino-al">Del Chino al Raval. Cultura y Transformación Social en la Barcelona Central </a></h3>
+      <div class="more">2006 Joan Subirats y Joaquim Rius (dir.) CCCB</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2497-del-chino-al">Del Chino al Raval. Cultura y Transformación Social en la Barcelona Central </a></div>
+        <div class="ref-info">
+          Por Joan Subirats y Joaquim Rius (dir.) // 2006 // CCCB
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2497-del-chino-al">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>El Raval es hoy un gran espacio de cambio social, un territorio de creación, un laboratorio de mezcla social y cultural en la ciudad de Barcelona. El presente estudio, resultado de un encargo del Centro de Cultura Contemporánea de Barcelona (CCCB), tiene como objeti- vo analizar el proceso de transformación social, económica y simbólica del barrio del Raval, proceso que hemos querido simbo...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2496-transformaciones-en-el"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2496" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2496-transformaciones-en-el">Transformaciones en el barrio de Malasaña. Hacia la gentrificación</a></h3>
+      <div class="more">2011 Aurora Justo Viento Sur</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2496-transformaciones-en-el">Transformaciones en el barrio de Malasaña. Hacia la gentrificación</a></div>
+        <div class="ref-info">
+          Por Aurora Justo // 2011 // Viento Sur
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2496-transformaciones-en-el">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>El barrio de Universidad conocido popularmente como Malasaña ha cambiado a lo largo de los años. Su fisonomía urbana y poblacional se ha transformado y se sigue transformando. Evidentemente estos cambios no han sido, ni son, for- tuitos sino que son el resultado de todo un conjunto de actuaciones públicas y privadas gestadas al calor del desarrollo económico y sobre todo del boom inmobilia...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2495-from-managerialism-to"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2495" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2495-from-managerialism-to">From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism</a></h3>
+      <div class="more">1989 David Harvey Geografiska Annaler. Series B, Human Geography,</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2495-from-managerialism-to">From Managerialism to Entrepreneurialism: The Transformation in Urban Governance in Late Capitalism</a></div>
+        <div class="ref-info">
+          Por David Harvey // 1989 // Geografiska Annaler. Series B, Human Geography,
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2495-from-managerialism-to">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>In recent years, urban governance has become In- creasingly preoccupied with the exploration of new ways in which to foster and encourage local development and employment growth. Such an entrepreneurial stance contrasts with the mana- gerial practices of earlier decades which primarily focussed on the local provision of services, facilities and benefits to urban populations. This paper explores...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="lucha de clases,gentrificación,conflicto urbano" >
+    <a name="ver-2494-gentrificacion-es-lucha"></a>
+    <div class="img">
+      <div class="reference WebPage iconic" id="reference_2494" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2494-gentrificacion-es-lucha">“Gentrificación es lucha de clases”: Fronteras y conflictividad en el espacio urbano actual</a></h3>
+      <div class="more"> El antropologo perplejo </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2494-gentrificacion-es-lucha">“Gentrificación es lucha de clases”: Fronteras y conflictividad en el espacio urbano actual</a></div>
+        <div class="ref-info">
+          Por El antropologo perplejo //  // 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_686">
+  <a href="/tags/lucha-de-clases">lucha de clases</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_687">
+  <a href="/tags/conflicto-urbano">conflicto urbano</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2494-gentrificacion-es-lucha">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Han pasado ya más de cuatro décadas desde que Henri Lefebvre (1972) señaló cómo la urbanización, que hasta aquel entonces parecía que únicamente acompañaba a la dinámica industrializadora, empezaba a sustituirla como determinante de los procesos sociales. Éstos, a su vez, pronto se postularían fundamentales para entender las formas de apropiación espacial existentes (Harvey 1992) y el fracciona...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="proletariat,city,gentrification,tom slater,class analysis,urban transformation" >
+    <a name="ver-2493-relocating-gentrification-the"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2493" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2493-relocating-gentrification-the">Relocating Gentrification: The Working Class, Science and the State in Recent Urban Research</a></h3>
+      <div class="more">2008 LOÏC WACQUANT International Journal of Urban and Regional Research</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2493-relocating-gentrification-the">Relocating Gentrification: The Working Class, Science and the State in Recent Urban Research</a></div>
+        <div class="ref-info">
+          Por LOÏC WACQUANT // 2008 // International Journal of Urban and Regional Research
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_681">
+  <a href="/tags/proletariat">proletariat</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_682">
+  <a href="/tags/city">city</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_670">
+  <a href="/tags/gentrification">gentrification</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_683">
+  <a href="/tags/tom-slater">tom slater</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_684">
+  <a href="/tags/class-analysis">class analysis</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_685">
+  <a href="/tags/urban-transformation">urban transformation</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2493-relocating-gentrification-the">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>This article amplifies TomSlater’s diagnosis of the causes of the gentrification of recent gentrification research. It argues that the shift from the denunciation to the celebration of gentrification, the elision of the displacement of the established residents, and the euphemistic focus on ‘social mixing’ partake of a broader pattern of invisibility of the working class in the public sphere an...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2492-a-literal-necessity"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2492" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2492-a-literal-necessity">‘A Literal Necessity to be Re-Placed’: A Rejoinder to the Gentrification Debate</a></h3>
+      <div class="more">2008 Tom Slater International Journal of Urban and Regional Research</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2492-a-literal-necessity">‘A Literal Necessity to be Re-Placed’: A Rejoinder to the Gentrification Debate</a></div>
+        <div class="ref-info">
+          Por Tom Slater // 2008 // International Journal of Urban and Regional Research
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2492-a-literal-necessity">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>This rejoinder begins and ends with some remarks on the gentrification strategies taking place in post-Katrina New Orleans, and responds to and builds on the commentaries by outlining, first, how the eviction of critical perspectives from gentrification research has continued, second, how displacement must be understood as multifaceted and contextual, and third, how urban researchers have becom...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2491-missing-marcuse-on"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2491" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2491-missing-marcuse-on">Missing Marcuse: On gentrification and displacement</a></h3>
+      <div class="more">2009 Tom Slater City</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2491-missing-marcuse-on">Missing Marcuse: On gentrification and displacement</a></div>
+        <div class="ref-info">
+          Por Tom Slater // 2009 // City
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2491-missing-marcuse-on">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Peter Marcuse’s contributions to the study of gentrification and displacement are immense, not just when measured in theoretical development, but in analytical rigour, methodological influence, cross-disciplinary relevance and intellectual–political commitment to social justice. However, his contributions have been conveniently missed in the disturbing 21st-century scholarly, journalistic, poli...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2490-la-perse-no"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2490" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2490-la-perse-no">La Perse No Esta En Venta. Una Fotonovela sobre Gentrificación en el Barrio de la Macarena y Perseverancia (Bogotá)</a></h3>
+      <div class="more">2013 Left Hand Rotation Left Hand Rotation</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2490-la-perse-no">La Perse No Esta En Venta. Una Fotonovela sobre Gentrificación en el Barrio de la Macarena y Perseverancia (Bogotá)</a></div>
+        <div class="ref-info">
+          Por Left Hand Rotation // 2013 // Left Hand Rotation
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2490-la-perse-no">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>El taller “gentrificación no es un nombre de señora” llega a Bogotá en septiembre de 2013 en el contexto de La Otra, Bienal de Arte Contemporáneo de la capital colombiana. Los espacios de intervención propuestos se situaron en los Barrios de La Perseverancia, La Macarena y Bosque izquierdo, en la zona centro de la ciudad. </p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="" >
+    <a name="ver-2489-the-eviction-of"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2489" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2489-the-eviction-of">The Eviction of Critical Perspectives from Gentrification Research</a></h3>
+      <div class="more">2006 Tom Slater International Journal of Urban and Regional Research</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2489-the-eviction-of">The Eviction of Critical Perspectives from Gentrification Research</a></div>
+        <div class="ref-info">
+          Por Tom Slater // 2006 // International Journal of Urban and Regional Research
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2489-the-eviction-of">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Recent years have seen an extraordinary resurgence of interest in the process of gentrification, accompanied by a surge of articles published on the topic. This article looks at some recent literature — both scholarly and popular — and considers the reasons why the often highly critical perspectives on gentrification that we saw in earlier decades have dwindled. Whilst a number of reasons could...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="neoliberalismo,políticas urbanas,gentrificación,movimientos sociales" >
+    <a name="ver-2488-ciudades-en-disputa"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2488" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Pd" class="license-type" src="/assets/license_icons/pd.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2488-ciudades-en-disputa">CIUDADES EN DISPUTA: diálogos críticos entre América Latina y Europa</a></h3>
+      <div class="more">2013 Red Contested Cities/Ciudades en Disputa Instituto Argentino para el Desarrollo Económico</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2488-ciudades-en-disputa">CIUDADES EN DISPUTA: diálogos críticos entre América Latina y Europa</a></div>
+        <div class="ref-info">
+          Por Red Contested Cities/Ciudades en Disputa // 2013 // Instituto Argentino para el Desarrollo Económico
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_93">
+  <a href="/tags/neoliberalismo">neoliberalismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_680">
+  <a href="/tags/politicas-urbanas">políticas urbanas</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_110">
+  <a href="/tags/movimientos-sociales">movimientos sociales</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2488-ciudades-en-disputa">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>El programa de intercambio interdisciplinario CONTESTED_CITIES/CIUDADES EN DISPUTA reúne investigadores de universidades europeas y latinoamericanas para discutir las consecuencias de la neoliberalización urbana y los movimientos sociales de resistencias originados en diferentes contextos geográficos. Mediante la utilización de metodologías cualitativas innovadoras, el proyecto tiene como objet...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,teoría urbana crítica,mercado inmobiliario,resistencia,santiago de chile" >
+    <a name="ver-2487-gentrificacion-y-resistencia"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2487" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2487-gentrificacion-y-resistencia">Gentrificación y resistencia en las ciudades latinoamericanas. El ejemplo de Santiago de Chile</a></h3>
+      <div class="more">2013 Antoine Casgrain y  Michael Janoschka Revista Andamios</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2487-gentrificacion-y-resistencia">Gentrificación y resistencia en las ciudades latinoamericanas. El ejemplo de Santiago de Chile</a></div>
+        <div class="ref-info">
+          Por Antoine Casgrain y  Michael Janoschka // 2013 // Revista Andamios
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_676">
+  <a href="/tags/teoria-urbana-critica">teoría urbana crítica</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_677">
+  <a href="/tags/mercado-inmobiliario">mercado inmobiliario</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_678">
+  <a href="/tags/resistencia">resistencia</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_679">
+  <a href="/tags/santiago-de-chile">santiago de chile</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2487-gentrificacion-y-resistencia">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Este artículo discute las modalidades mediante las cuales es posible aplicar el término “gentrificación” en las ciudades latinoamericanas. Para ello, se defiende en primer lugar la necesidad de disociar el término, en un ejercicio crítico, de los debates tradicionales del mundo anglosajón de los cuales procede. A raíz de ese proceso dialéctico, se propone su aplicación en dos dimensiones para l...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrification,neoliberalism,revanchism,resistance,spain,latin america" >
+    <a name="ver-2486-gentrification-in-spain"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2486" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2486-gentrification-in-spain">Gentrification in Spain and Latin America — a Critical Dialogue</a></h3>
+      <div class="more">2013 MICHAEL JANOSCHKA, JORGE SEQUERA and LUIS SALINAS Contested Cities</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2486-gentrification-in-spain">Gentrification in Spain and Latin America — a Critical Dialogue</a></div>
+        <div class="ref-info">
+          Por MICHAEL JANOSCHKA, JORGE SEQUERA and LUIS SALINAS // 2013 // Contested Cities
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_670">
+  <a href="/tags/gentrification">gentrification</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_671">
+  <a href="/tags/neoliberalism">neoliberalism</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_672">
+  <a href="/tags/revanchism">revanchism</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_673">
+  <a href="/tags/resistance">resistance</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_674">
+  <a href="/tags/spain">spain</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_675">
+  <a href="/tags/latin-america">latin america</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2486-gentrification-in-spain">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Major social and political transformations such as the shift towards neoliberal urban policies have widely altered the contemporary structuring of metropolitan areas in Spain and Latin America. One key consequence is the recapture of city centres by wealthy tenants and the eviction of poorer households, a phenomenon usually designated by the term gentrification. In comparison to the comprehensi...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="regeneración urbana,cultura,análisis de discurso,king´s cross,sociología urbana" >
+    <a name="ver-2485-conflicto-de-identidades"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2485" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2485-conflicto-de-identidades">Conflicto de identidades en los centros urbanos en los procesos de regeneración urbana. La experiencia anglosajona: el caso de King&#x27;s Cross</a></h3>
+      <div class="more">2011 Marta Domínguez Pérez Encrucijadas. Revista Crítica de Ciencias Sociales</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2485-conflicto-de-identidades">Conflicto de identidades en los centros urbanos en los procesos de regeneración urbana. La experiencia anglosajona: el caso de King&#x27;s Cross</a></div>
+        <div class="ref-info">
+          Por Marta Domínguez Pérez // 2011 // Encrucijadas. Revista Crítica de Ciencias Sociales
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_666">
+  <a href="/tags/regeneracion-urbana">regeneración urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_117">
+  <a href="/tags/cultura">cultura</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_667">
+  <a href="/tags/analisis-de-discurso">análisis de discurso</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_668">
+  <a href="/tags/king-s-cross">king´s cross</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_669">
+  <a href="/tags/sociologia-urbana">sociología urbana</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2485-conflicto-de-identidades">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Según la sociología urbana, la ciudad tiene además de dimensión económica, urbanística, política, medioambiental y sociológica, una dimensión cultural que se manifiesta, entre otros, en los discursos. Actualmente y en esta dimensión, los proyectos de regeneración urbana británicos, con amplia tradición, pueden servir para ilustrar los problemas que pueden aparecer en los españoles, de más recie...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="desplazamiento,acoso inmobiliario,gentrificación,historia urbana,geografía social" >
+    <a name="ver-2484-desplazamiento-acoso-inmobiliario"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2484" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2484-desplazamiento-acoso-inmobiliario">Desplazamiento, acoso inmobiliario y espacio gentrificable en el caso de Sevilla</a></h3>
+      <div class="more">2011 Ibán Díaz Parra Encrucijadas. Revista Crítica de Ciencias Sociales</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2484-desplazamiento-acoso-inmobiliario">Desplazamiento, acoso inmobiliario y espacio gentrificable en el caso de Sevilla</a></div>
+        <div class="ref-info">
+          Por Ibán Díaz Parra // 2011 // Encrucijadas. Revista Crítica de Ciencias Sociales
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_662">
+  <a href="/tags/desplazamiento">desplazamiento</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_663">
+  <a href="/tags/acoso-inmobiliario">acoso inmobiliario</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_664">
+  <a href="/tags/historia-urbana">historia urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_665">
+  <a href="/tags/geografia-social">geografía social</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2484-desplazamiento-acoso-inmobiliario">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>El desplazamiento de población con escasos recursos es una de las consecuencias más obviamente negativas de los procesos de gentrificación. Este fenómeno ha estado además relacionado con la práctica del acoso a inquilinos por parte de propietarios de viviendas en alquiler en zonas revalorizadas, una práctica criminal y con una cierta difusión en las últimas décadas. En este trabajo se explora l...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 19/11/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,cascos antiguos,transformación urbana,tesis" >
+    <a name="ver-2430-procesos-de-gentrificacion"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2430" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2430-procesos-de-gentrificacion">Procesos de gentrificación en cascos antiguos en España: El Albaicín de Granada</a></h3>
+      <div class="more">2010  </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2430-procesos-de-gentrificacion">Procesos de gentrificación en cascos antiguos en España: El Albaicín de Granada</a></div>
+        <div class="ref-info">
+          Por  // 2010 // 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_596">
+  <a href="/tags/cascos-antiguos">cascos antiguos</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_594">
+  <a href="/tags/transformacion-urbana">transformación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_225">
+  <a href="/tags/tesis">tesis</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2430-procesos-de-gentrificacion">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Tesis doctoral</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 09/04/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación" >
+    <a name="ver-412-gentrificacion-no-es"></a>
+    <div class="img">
+      <div class="reference Video iconic" id="reference_412" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/412-gentrificacion-no-es">Gentrificación no es un nombre de señora</a></h3>
+      <div class="more">2010 Left Hand Rotation </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/412-gentrificacion-no-es">Gentrificación no es un nombre de señora</a></div>
+        <div class="ref-info">
+          Por Left Hand Rotation // 2010 // 
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-412-gentrificacion-no-es">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>&quot;Según nuestro punto de vista, la Gentrificación (ese palabro cada vez más usado) es una respuesta aspiracional de las administraciones públicas locales a una política del desarrollo urbano global cuya finalidad es la implantación de lo denominado como &quot;ciudades marca&quot; Left hand rotation. 
+Más aquí - <a href="http://bit.ly/m68J55">http://bit.ly/m68J55</a></p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 09/04/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="6847"
+    data-tags="gentrificación,revanchismo,transformación urbana,geografía crítica" >
+    <a name="ver-2429-la-nueva-frontera"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2429" style="background-color: #c14f52">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2429-la-nueva-frontera">La nueva frontera urbana. Ciudad revanchista y gentrificación</a></h3>
+      <div class="more">2012 Neil Smith Traficantes de Sueños</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2429-la-nueva-frontera">La nueva frontera urbana. Ciudad revanchista y gentrificación</a></div>
+        <div class="ref-info">
+          Por Neil Smith // 2012 // Traficantes de Sueños
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_592">
+  <a href="/tags/gentrificacion">gentrificación</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_593">
+  <a href="/tags/revanchismo">revanchismo</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_594">
+  <a href="/tags/transformacion-urbana">transformación urbana</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_595">
+  <a href="/tags/geografia-critica">geografía crítica</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4970">
+  <div class="before"></div>
+  <div class="after" style="background-color: #c14f52" >
+    <span class="references"><i class='icon-book'></i>&nbsp;26</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/espacios/gentrificacion#ver-2429-la-nueva-frontera">Gentrificación</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Este libro, convertido ya en el estudio clásico sobre la gentrificación, revela con notable lucidez la fuerte dependencia de los procesos de transformación urbana de las dinámicas de acumulación de capital sobre el territorio.</p>
+
+<p>La noche del 6 de agosto de 1988 estalló un enfrentamiento a lo largo y ancho de los márgenes del Tompkins Square Park, un pequeño espacio verde del Lower East Side de...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/david-p">David P.</a>
+            el 09/04/2013
+        </span>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

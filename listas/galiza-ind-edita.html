@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galiza ind-edita :: Listas compartidas</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 08:23:55 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='https://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="ShelvesController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Nologo" class="logo" src="/assets/logos/nologo.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail current"></div>
+    <div class="content current"><a href="/listas">Listas compartidas</a></div>
+    <div class="head current"></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunas referencias para entender cómo seguimos a partir de ahora</span>
+        <span class="slogan big">¿Y tu, qué llevarías a tu próxima plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+
+    <div class="arrow-button right">
+    <div class="img left"></div>
+    <div class="img right"></div>
+    <div class="content"><a href="/estantes/nueva?s=galiza-ind-edita" data-action="add_shelf_item">Añadir referencia</a></div>
+    </div>
+  <div class="hand"></div>
+  <div class="black">
+    <div class="markdown"><p>Recopilación de diferentes textos (narrativa, ensayo, poesía) de editoriales independientes galegas. Muestra en construcción.</p>
+</div>
+  </div>
+  <div class="curtain"></div>
+
+<!-- TODO: remove view
+<div class="shelf_view">
+  <h5>Ver como...</h5>
+  <a href="#" id="as_list"><i class="icon-list"></i> Lista</a>
+  <a href="#" id="as_icons"><i class="icon-th"></i> Iconos</a>
+</div>
+-->
+
+<div class="filter tags">
+  <span class="tag" id="tag_23">
+  <a href="/tags/poesia">poesía</a><!--small>&nbsp;()</small-->
+</span><span class="tag" id="tag_263">
+  <a href="/tags/ensayo">ensayo</a><!--small>&nbsp;()</small-->
+</span>
+</div>
+
+<!-- TODO: remove view
+<div class="editors">
+<h5>Han participado:</h5>
+      ()
+</div>
+-->
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+      <div class="shelf" id="shelf_4977">
+  <div class="header">
+    <div class="bloc">
+  <div class="actions">
+
+  </div>
+  <!-- TODO: remove
+  <div class="count" style="background-color: #008eb0">
+  </div>
+-->
+  <h2><a href="/bibliotecas/listas">Listas compartidas</a></h2>
+  <h1>
+    Galiza ind-edita
+  </h1>
+  <div class="social">
+    Iniciada el 07/05/2013 por <a href="/somos/belen-r-soto">Belén R. Soto</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="new_shelf_item_quick alert alert-block" style="display: none">
+  <form accept-charset="UTF-8" action="/referencia" class="simple_form new_reference" id="new_reference" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2A2v6cDpbBuDA0HnsWSm5wBSMdGJ3HlFuyZw0DyZhg0=" /></div>
+    <input id="s" name="s" type="hidden" value="4977" />
+    <div class="control-group autocomplete required reference_title"><label class="autocomplete required control-label" for="reference_title"><abbr title="obligatorio">*</abbr> Título</label><div class="controls"><input class="autocomplete required" data-autocomplete="/referencia/autocomplete_reference_title" id="reference_title" name="reference[title]" size="30" type="text" /></div></div>
+    <input name="commit" type="submit" value="Añadir" />
+</form></div>
+
+
+  <div class="references list">
+    <div class="filter user alert alert-info" style="display: none">
+  Estás viendo las entradas de <strong class="user_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+<div class="filter tag alert alert-info" style="display: none">
+  Estás viendo las entradas etiquetadas con <strong class="tag_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+
+
+
+        <div class="mobject shelf_item"
+    data-user_id="1815"
+    data-tags="poesía" >
+    <a name="ver-2454-manual-da-destrucion"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2454" style="background-color: #008eb0">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2454-manual-da-destrucion">Manual da destrución</a></h3>
+      <div class="more">2008 Samuel L. París A Regueifa Netlabel</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2454-manual-da-destrucion">Manual da destrución</a></div>
+        <div class="ref-info">
+          Por Samuel L. París // 2008 // A Regueifa Netlabel
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_23">
+  <a href="/tags/poesia">poesía</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4977">
+  <div class="before"></div>
+  <div class="after" style="background-color: #008eb0" >
+    <span class="references"><i class='icon-book'></i>&nbsp;3</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/galiza-ind-edita#ver-2454-manual-da-destrucion">Galiza ind-edita</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"></div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/belen-r-soto">Belén R. Soto</a>
+            el 07/05/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="1815"
+    data-tags="" >
+    <a name="ver-2453-a-praza-e"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2453" style="background-color: #008eb0">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2453-a-praza-e">A praza é nosa. Quen constrúe a democracia?</a></h3>
+      <div class="more">  </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2453-a-praza-e">A praza é nosa. Quen constrúe a democracia?</a></div>
+        <div class="ref-info">
+          Por  //  //
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4977">
+  <div class="before"></div>
+  <div class="after" style="background-color: #008eb0" >
+    <span class="references"><i class='icon-book'></i>&nbsp;3</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/galiza-ind-edita#ver-2453-a-praza-e">Galiza ind-edita</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"></div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/belen-r-soto">Belén R. Soto</a>
+            el 07/05/2013
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="1815"
+    data-tags="ensayo" >
+    <a name="ver-2452-da-revolta-italiana"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2452" style="background-color: #008eb0">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Cc" class="license-type" src="/assets/license_icons/cc.png" />
+      <img alt="¿Lo quieres? ¡Lo tienes!" class="download" src="/assets/references/download-arrow.png" />
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2452-da-revolta-italiana">DA REVOLTA ITALIANA Á POTENCIA DA MULTITUDE. Unha introdución ao pensamento de Toni Negri.</a></h3>
+      <div class="more">2010 Sören Hauser estaleiro editora</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2452-da-revolta-italiana">DA REVOLTA ITALIANA Á POTENCIA DA MULTITUDE. Unha introdución ao pensamento de Toni Negri.</a></div>
+        <div class="ref-info">
+          Por Sören Hauser // 2010 // estaleiro editora
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_263">
+  <a href="/tags/ensayo">ensayo</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4977">
+  <div class="before"></div>
+  <div class="after" style="background-color: #008eb0" >
+    <span class="references"><i class='icon-book'></i>&nbsp;3</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/galiza-ind-edita#ver-2452-da-revolta-italiana">Galiza ind-edita</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"></div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/belen-r-soto">Belén R. Soto</a>
+            el 07/05/2013
+        </span>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

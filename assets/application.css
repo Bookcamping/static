@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(jquery-ui-1.10.2.custom.css);
 /* line 26, ../../../.rbenv/versions/2.0.0-p648/lib/ruby/gems/2.0.0/gems/bootstrap-sass-2.1.0.1/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .clearfix {
   *zoom: 1;
@@ -9627,89 +9626,6 @@ div.header div.actions {
   background-position: -307px;
 }
 
-/* line 6, ../../app/assets/stylesheets/forms.css.scss */
-form input[type=text], form input[type=password],
-form input[type=url],
-form input[type=email], form textarea {
-  border: 1px solid #333333;
-  border-radius: 2px;
-  width: 90%;
-}
-/* line 13, ../../app/assets/stylesheets/forms.css.scss */
-form button {
-  margin-top: -8px;
-}
-/* line 14, ../../app/assets/stylesheets/forms.css.scss */
-form textarea {
-  height: 10em;
-}
-/* line 17, ../../app/assets/stylesheets/forms.css.scss */
-form select {
-  width: 50%;
-}
-/* line 19, ../../app/assets/stylesheets/forms.css.scss */
-form span.hint, form span.error {
-  display: block;
-  margin: -5px 0 5px 0;
-  color: #aaa;
-}
-/* line 24, ../../app/assets/stylesheets/forms.css.scss */
-form span.error {
-  color: #c00;
-}
-/* line 25, ../../app/assets/stylesheets/forms.css.scss */
-form label {
-  font-weight: bold;
-}
-/* line 28, ../../app/assets/stylesheets/forms.css.scss */
-form textarea#shelf_item_description {
-  height: 20em;
-}
-/* line 32, ../../app/assets/stylesheets/forms.css.scss */
-form div.submit {
-  padding: 10px 0 30px 0;
-  border-top: 2px solid black;
-}
-
-/* line 36, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference div.input.select, form.edit_reference div.input.select {
-  width: 50%;
-  float: left;
-}
-/* line 38, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference div.input.select select, form.edit_reference div.input.select select {
-  width: 80%;
-}
-/* line 40, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference textarea#reference_description, form.edit_reference textarea#reference_description {
-  height: 27em;
-}
-/* line 41, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference textarea#reference_tag_names, form.edit_reference textarea#reference_tag_names {
-  height: 5em;
-}
-/* line 44, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference div.link_fields .link_description, form.edit_reference div.link_fields .link_description {
-  width: 20%;
-}
-/* line 45, ../../app/assets/stylesheets/forms.css.scss */
-form.new_reference div.link_fields .link_url, form.edit_reference div.link_fields .link_url {
-  width: 60%;
-}
-
-/* line 50, ../../app/assets/stylesheets/forms.css.scss */
-form .upload {
-  width: 100%;
-  overflow: hidden;
-}
-/* line 53, ../../app/assets/stylesheets/forms.css.scss */
-form .upload fieldset {
-  float: left;
-  width: 48%;
-  margin-right: 2%;
-  overflow: hidden;
-}
-
 /* line 3, ../../app/assets/stylesheets/libraries.css.scss */
 .library.icon {
   margin-top: 30px;
@@ -10380,43 +10296,6 @@ div.reference.preview .cover {
     height: 150px;
   }
 }
-/* line 1, ../../app/assets/stylesheets/downloads.css.scss */
-p.download.important {
-  font-weight: bold;
-  text-align: center;
-  margin: 0;
-  padding: 2px 0;
-}
-
-/* line 6, ../../app/assets/stylesheets/downloads.css.scss */
-div.downloads {
-  margin: 0;
-  background-color: #EEE;
-  padding: 10px 20px 5px 20px;
-}
-/* line 10, ../../app/assets/stylesheets/downloads.css.scss */
-div.downloads div.download.simple {
-  margin: 3px 0;
-  font-size: 18px;
-}
-/* line 13, ../../app/assets/stylesheets/downloads.css.scss */
-div.downloads div.download.simple .size {
-  font-size: 12px;
-}
-
-/* line 17, ../../app/assets/stylesheets/downloads.css.scss */
-div.download.verbose {
-  width: 100%;
-  overflow: hidden;
-  margin: 20px 0;
-}
-/* line 20, ../../app/assets/stylesheets/downloads.css.scss */
-div.download.verbose img.cover {
-  width: 30%;
-  margin-right: 3%;
-  float: left;
-}
-
 /* line 2, ../../app/assets/stylesheets/users.css.scss */
 article.user img.avatar {
   float: left;
@@ -10445,72 +10324,6 @@ article.user img.avatar {
   margin: 2px 0;
   height: 22px;
   overflow: hidden;
-}
-
-/* line 2, ../../app/assets/stylesheets/versions.css.scss */
-.version a {
-  color: black;
-}
-/* line 3, ../../app/assets/stylesheets/versions.css.scss */
-.version .event {
-  font-weight: bold;
-}
-/* line 4, ../../app/assets/stylesheets/versions.css.scss */
-.version .img {
-  text-align: center;
-}
-/* line 6, ../../app/assets/stylesheets/versions.css.scss */
-.version .img i {
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: normal;
-}
-/* line 8, ../../app/assets/stylesheets/versions.css.scss */
-.version .time {
-  font-size: 80%;
-  color: #666;
-}
-/* line 9, ../../app/assets/stylesheets/versions.css.scss */
-.version div.reference.item {
-  margin: 0;
-  border-bottom: 0;
-}
-
-/* line 11, ../../app/assets/stylesheets/versions.css.scss */
-body.NoUsersController.show .version img.avatar {
-  display: none;
-}
-
-/* line 12, ../../app/assets/stylesheets/versions.css.scss */
-img.avatar.size20 {
-  border-radius: 10px;
-}
-
-/* line 13, ../../app/assets/stylesheets/versions.css.scss */
-img.avatar.size40 {
-  border-radius: 20px;
-}
-
-/* line 14, ../../app/assets/stylesheets/versions.css.scss */
-img.avatar.size80 {
-  border-radius: 40px;
-}
-
-/* line 17, ../../app/assets/stylesheets/versions.css.scss */
-.activity.small {
-  overflow: hidden;
-}
-/* line 19, ../../app/assets/stylesheets/versions.css.scss */
-.activity.small .imgExt {
-  text-align: center;
-}
-/* line 20, ../../app/assets/stylesheets/versions.css.scss */
-.activity.small .event {
-  font-weight: normal;
-}
-/* line 21, ../../app/assets/stylesheets/versions.css.scss */
-.activity.small a {
-  font-weight: bold;
 }
 
 /* ====== media object ====== */
