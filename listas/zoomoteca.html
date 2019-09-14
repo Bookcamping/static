@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Zoomoteca :: Listas compartidas</title>
+<link href="/assets/application.css" media="all" rel="stylesheet" type="text/css" />
+<meta name="app_version" content="2019-09-14 07:42:36 +0000" >
+<link rel="apple-touch-icon-precomposed" href="/assets/icons/apple-touch-icon-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/icons/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/icons/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/icons/apple-touch-icon-144x144-precomposed.png" />
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,700|Cousine' rel='stylesheet' type='text/css'>
+<!-- script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Kreon:300,700', 'Cousine' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+</script -->
+
+
+</head>
+<body class="ShelvesController show">
+<header id="page_header">
+  <div class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="search span2">
+      &nbsp;
+      </div>
+      <div class="tabs">
+          <a href="/como">¿Cómo?</a>
+          <a href="/mapa">Mapa</a>
+          <a href="http://blog.bookcamping.cc">Blog</a>
+          <a href="/bibliotecas">Biblios</a>
+          <a href="/">Inicio</a>
+      </div>
+      <div class="session">
+          <p>Estamos congeladas</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <a href="/">
+    <div class="span12 banner">
+      <div class="row">
+        <div class="span3">
+          <div class="title">
+            <h3 class="">
+              #bookcamping
+            </h3>
+          </div>&nbsp;
+        </div>
+        <div class="span9 image">
+          <img alt="Triangle" class="triangle" src="/assets/triangle.png" />
+          <img alt="Banner" class="responsive" src="/assets/banner.jpg" />
+        </div>
+      </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+<!--
+<div class="container">
+  <div class="banner row">
+    <div class="span3 logo">
+ <a href="/"><img alt="Nologo" class="logo" src="/assets/logos/nologo.png" /></a>
+    </div>
+    <div class="span9">
+      <div class="campings">
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/estanterias">bookcamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/visitas">Visitas guiadas</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail "></div>
+    <div class="content "><a href="/videoclub">videocamping</a></div>
+    <div class="head "></div>
+  </div>
+  <div class="camping">
+    <div class="tail current"></div>
+    <div class="content current"><a href="/listas">Listas compartidas</a></div>
+    <div class="head current"></div>
+  </div>
+</div>
+
+
+      <div class="slogans">
+ <span class="slogan small">Algunas referencias para entender cómo seguimos a partir de ahora</span>
+        <span class="slogan big">¿Y tu, qué llevarías a tu próxima plaza/acampada/bookcamping?</span>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<div class="container">
+  <div class="row">
+  <div class="sidebar left span3">
+    <div class="sidecontent">
+      
+    <div class="arrow-button right">
+    <div class="img left"></div>
+    <div class="img right"></div>
+    <div class="content"><a href="/estantes/nueva?s=zoomoteca" data-action="add_shelf_item">Añadir referencia</a></div>
+    </div>
+  <div class="hand"></div>
+  <div class="black">
+    <div class="markdown"><p>Zoomoteca started during the workshop Hidden Histories at Medialab Prado. It is the result of the discovery of a common interest of the participants in graphic novels, in the exploration of “shared” spaces like a media façade with digital tools and multi-dimensional approaches. To be continued!</p>
+</div>
+  </div>
+  <div class="curtain"></div>
+
+<!-- TODO: remove view
+<div class="shelf_view">
+  <h5>Ver como...</h5>
+  <a href="#" id="as_list"><i class="icon-list"></i> Lista</a>
+  <a href="#" id="as_icons"><i class="icon-th"></i> Iconos</a>
+</div>
+-->
+
+<div class="filter tags">
+  <span class="tag" id="tag_815">
+  <a href="/tags/humor-comic">#humor #comic</a><!--small>&nbsp;()</small-->
+</span>
+</div>
+
+<!-- TODO: remove view
+<div class="editors">
+<h5>Han participado:</h5>
+      ()
+</div>
+-->
+
+
+    </div>
+    &nbsp;
+  </div>
+  <div class="main span9">
+      <div class="shelf" id="shelf_4992">
+  <div class="header">
+    <div class="bloc">
+  <div class="actions">
+    
+  </div>
+  <!-- TODO: remove
+  <div class="count" style="background-color: #db533d">
+  </div>
+-->
+  <h2><a href="/bibliotecas/listas">Listas compartidas</a></h2>
+  <h1>
+    Zoomoteca
+  </h1>
+  <div class="social">
+    Iniciada el 26/06/2015 por <a href="/somos/loraine-furter">Loraine Furter</a>
+  </div>
+</div>
+
+  </div>
+
+  <div class="new_shelf_item_quick alert alert-block" style="display: none">
+  <form accept-charset="UTF-8" action="/referencia" class="simple_form new_reference" id="new_reference" method="post" novalidate="novalidate"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0tooaGMzDknDYxwlrneiYKTnC9+CYNj1p3DoBBz03gM=" /></div>
+    <input id="s" name="s" type="hidden" value="4992" />
+    <div class="control-group autocomplete required reference_title"><label class="autocomplete required control-label" for="reference_title"><abbr title="obligatorio">*</abbr> Título</label><div class="controls"><input class="autocomplete required" data-autocomplete="/referencia/autocomplete_reference_title" id="reference_title" name="reference[title]" size="30" type="text" /></div></div>
+    <input name="commit" type="submit" value="Añadir" />
+</form></div>
+
+
+  <div class="references list">
+    <div class="filter user alert alert-info" style="display: none">
+  Estás viendo las entradas de <strong class="user_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+<div class="filter tag alert alert-info" style="display: none">
+  Estás viendo las entradas etiquetadas con <strong class="tag_name">NOMBRE</strong>.
+  <a href="#" class="show_all">Pulsa aquí para ver todas</a>.
+</div>
+
+
+
+        <div class="mobject shelf_item"
+    data-user_id="432207"
+    data-tags="" >
+    <a name="ver-2698-gamonal"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2698" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2698-gamonal">gamonal</a></h3>
+      <div class="more">  </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2698-gamonal">gamonal</a></div>
+        <div class="ref-info">
+          Por  //  // 
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2698-gamonal">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"></div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/jose-memat">José MeMat</a>
+            el 19/12/2016
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="455"
+    data-tags="#humor #comic" >
+    <a name="ver-2631-hervir-un-oso"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2631" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2631-hervir-un-oso">Hervir un oso</a></h3>
+      <div class="more">2010 Jonathan Millán y Miguel Noguera belleza Infinta</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2631-hervir-un-oso">Hervir un oso</a></div>
+        <div class="ref-info">
+          Por Jonathan Millán y Miguel Noguera // 2010 // belleza Infinta
+          <i class='icon-tags'></i>&nbsp;<span class="tag" id="tag_815">
+  <a href="/tags/humor-comic">#humor #comic</a><!--small>&nbsp;()</small-->
+</span>
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2631-hervir-un-oso">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Las mejores ideas y dibujos de Miguel Noguera y Jonathan Millán. Una avalancha de historias y especulaciones sorprendentes, para descubrir que la realidad ofrece infinitas posibilidades poéticas: niños suicidas, gatos poderosos, viajes en el tiempo, pederastas mágicos, zombies ilustres, sectas subterráneas, perros católicos, olores en 3D, ciegos malvados, viudas vengativas, invasiones alienígen...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/maria-castello-solbes">María Castelló Solbes</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2630-3-seconds"></a>
+    <div class="img">
+      <div class="reference WebPage iconic" id="reference_2630" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2630-3-seconds">3 Seconds</a></h3>
+      <div class="more">2013 Marc-Antoine Mathieu </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2630-3-seconds">3 Seconds</a></div>
+        <div class="ref-info">
+          Por Marc-Antoine Mathieu // 2013 // 
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2630-3-seconds">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>3”</p>
+
+<p>A GAME OF ZOOMS BY</p>
+
+<p>MARC-ANTOINE MATHIEU</p>
+
+<p><a href="http://3secondsmystery.com/">http://3secondsmystery.com/</a></p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2629-power-of-ten"></a>
+    <div class="img">
+      <div class="reference Video iconic" id="reference_2629" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2629-power-of-ten">Power of ten</a></h3>
+      <div class="more">1977 Charles &amp; Ray Eames </div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2629-power-of-ten">Power of ten</a></div>
+        <div class="ref-info">
+          Por Charles &amp; Ray Eames // 1977 // 
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2629-power-of-ten">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>The Powers of Ten films are two short American documentary films written and directed by Charles and Ray Eames. Both works depict the relative scale of the Universe according to an order of magnitude (or logarithmic scale) based on a factor of ten, first expanding out from the Earth until the entire universe is surveyed, then reducing inward until a single atom and its quarks are observed.</p>
+
+<p>h...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2628-les-cites-obscures"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2628" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2628-les-cites-obscures">Les Cités Obscures</a></h3>
+      <div class="more">1983 François Schuiten Casterman</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2628-les-cites-obscures">Les Cités Obscures</a></div>
+        <div class="ref-info">
+          Por François Schuiten // 1983 // Casterman
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2628-les-cites-obscures">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Schuiten&#39;s graphic representations and architectural styles within Les Cités obscures is, among other historical themes, heavily influenced by Belgian Art Nouveau architect Victor Horta, who worked in Brussels at the turn of the 20th century. An important motif is the process of what he calls Bruxellisation, the destruction of this historic Brussels in favor of anonymous, low-quality modernist ...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2627-building-stories"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2627" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2627-building-stories">Building Stories</a></h3>
+      <div class="more">2012 Chris Ware Pantheon Books</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2627-building-stories">Building Stories</a></div>
+        <div class="ref-info">
+          Por Chris Ware // 2012 // Pantheon Books
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2627-building-stories">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>Building Stories is a graphic novel by Chris Ware that plays with the architecture of the book and the comics’ structural vocabulary (cases, frames…)</p>
+
+<p>It is a box containing fourteen books of different formats: cloth-bound books, newspapers, broadsheets and flip books.</p>
+
+<p>Image Wikimedia Commons (fair use): <a href="https://upload.wikimedia.org/wikipedia/en/5/53/Building_Stories_cover.jpg">https://upload.wikimedia.org/wikipedia/en/5/53/Building_Stories_cover.jpg</a></p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2626-zoom"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2626" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2626-zoom">Zoom</a></h3>
+      <div class="more">1995 Istvan Banyai Viking</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2626-zoom">Zoom</a></div>
+        <div class="ref-info">
+          Por Istvan Banyai // 1995 // Viking
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2626-zoom">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>An illustrated book playing with the process of un-zooming in a picture that reveals the pictures that contains it, and the one that contains it …</p>
+
+<p>Image Wikimedia Commons (fair use):  <a href="https://upload.wikimedia.org/wikipedia/en/c/c8/Banyai_Zoom.jpg">https://upload.wikimedia.org/wikipedia/en/c/c8/Banyai_Zoom.jpg</a></p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2625-13-rue-del"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2625" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2625-13-rue-del">13, Rue del Percebe</a></h3>
+      <div class="more">1961 Francisco Ibáñez Tío Vivo magazine</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2625-13-rue-del">13, Rue del Percebe</a></div>
+        <div class="ref-info">
+          Por Francisco Ibáñez // 1961 // Tío Vivo magazine
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2625-13-rue-del">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p>13, Rue del Percebe is a Spanish comic book created by Francisco Ibáñez that debuted in the pages of Tío Vivo magazine on March 6, 1961</p>
+
+<p>13, Rue del Percebe is a single panel that takes up the whole page that represents an humorous view of a building and the people who inhabits it. Each apartment is a panel in itself, with fixed characters with defined personalities. Usually each panel is not...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+  <div class="mobject shelf_item"
+    data-user_id="331683"
+    data-tags="" >
+    <a name="ver-2624-here"></a>
+    <div class="img">
+      <div class="reference Book iconic" id="reference_2624" style="background-color: #db533d">
+
+  <div class="content">
+    <div class="emblems">
+      <img alt="Copyright" class="license-type" src="/assets/license_icons/copyright.png" />
+      
+    </div>
+    <div class="info">
+      <h3><a href="/referencia/2624-here">Here</a></h3>
+      <div class="more">2014 Richard McGuire Pantheon Books</div>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="payload">
+      <div class="title"><a href="/referencia/2624-here">Here</a></div>
+        <div class="ref-info">
+          Por Richard McGuire // 2014 // Pantheon Books
+          <i class='icon-tags'></i>&nbsp;
+
+        </div>
+        <div class="shelves small">
+          <div class="shelf item" id="shelf_4992">
+  <div class="before"></div>
+  <div class="after" style="background-color: #db533d" >
+    <span class="references"><i class='icon-book'></i>&nbsp;9</span>
+  </div>
+  <div class="shelf-content">
+    <h2><a href="/listas/zoomoteca#ver-2624-here">Zoomoteca</a>
+  </div>
+</div>
+        </div>
+        <div class="description">
+          <div class="markdown"><p><em>Here</em> is a comic by Richard McGuire that plays with frames representing actions happening in a same place but at different times.</p>
+
+<p><em>Here</em> started as a 6-page black and white comic, published in Raw Volume 2 #1 in 1989.</p>
+
+<p>In 2014, McGuire published an expanded version, in a 300 pages color graphic novel (Pantheon Books).</p>
+
+<p>Image Wikimedia Commons (fair use): <a href="https://upload.wikimedia.org/wik">https://upload.wikimedia.org/wik</a>...</p>
+</div>
+        </div>
+        <div class="reference-urls">
+</div>
+
+        <span class="item_info">
+            Añadido por <a href="/somos/loraine-furter">Loraine Furter</a>
+            el 27/06/2015
+        </span>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+  </div>
+  <!-- TODO: REMOVE
+  <div class="sidebar right span2">
+    <div class="sidecontent">
+    </div>
+    &nbsp;
+  </div>
+  -->
+</div>
+
+</div>
+<footer class="container">
+  <div class="bar">
+    <div class="right end">&nbsp;</div>
+    <div class="left end">&nbsp;</div>
+    <div class="bar-contents">
+      <div class="site_links">
+          <a href="/agradecimientos">Agradecimientos enormes</a> |
+          <a href="/contactar">Contactar</a> |
+          <a href="/nosotras">Sobre nosotras</a> |
+      </div>
+    </div>
+  </div>
+  <div class="the-end">
+    <a href="/colofon" class="colofon">Colofon</a>
+    <div class="license">
+      <img alt="licencia" src="/assets/layout/licencia_bookcamping.png" />
+      <p>Esta web y todo el material generado por el proyecto #bookcamping
+      está bajo una licencia Creative Commons Reconocimiento - Compartir Igual (by-sa)</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
